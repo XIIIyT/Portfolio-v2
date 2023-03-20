@@ -1,0 +1,45 @@
+// ---------- Colors ---------- //
+$main-color: #333333;
+$white-color: #FFFFFF;
+$gray-color: #D6D6D6;
+
+
+
+
+
+
+
+// ---------- Fonts ---------- //
+$main-font: 'Rubik', sans-serif;
+$secondary-font: 'Ubuntu', sans-serif;
+// --------------------------- //
+
+
+
+
+
+
+// ---------- Gryd System ---------- //
+.grid-box {
+    width: 1920px;
+    margin: 0 220px;
+    display: grid;
+    grid-gap: 32px;
+
+    @media (min-width: 1440px) {
+        width: 1440px;
+        margin: 0 32px;
+    }
+    @media (min-width: 1152px) {
+        width: 1152px;
+        margin: 0 32px;
+    }
+    @media (min-width: 768px) {
+        width: 768px;
+        margin: 0 20px;
+    }
+    @media (min-width: 320px) {
+        width: 320px;
+        margin: 0 16px;
+    }
+}
