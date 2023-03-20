@@ -1,0 +1,75 @@
+@import "../../global-styles/variables.scss";
+
+.HeroZone {
+    width: 1920px;
+    height: 963px;
+
+    border: 1px solid black;
+    margin-top: 84.5px;
+}
+
+.Content {
+    width: fill;
+    height: 640px;
+
+    border: 1px solid red;
+    .TextBlock {
+        width: 640px;
+        height: fill;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .Hello {
+            width: 147px;
+            height: 39px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            gap: 12px;
+
+            h3 {
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 34px;
+                font-weight: 700;
+            }
+        }
+    }
+    article {
+        width: 48px;
+        border: 2px solid var(--main-color);
+    }
+}
+
+
+
+
+.IAm {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 88px;
+}
+.FrontEndDeveloper {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+}
+.OhHorse {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+
+.IconScroll {
+    
+}

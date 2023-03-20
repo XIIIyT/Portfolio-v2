@@ -7,29 +7,9 @@ $secondary-font: 'Ubuntu', sans-serif;
 
 
 
-
-// ---------- Gryd System ---------- //
-.grid-box {
-    width: 1920px;
-    margin: 0 220px;
-    display: grid;
-    grid-gap: 32px;
-
-    @media (min-width: 1440px) {
-        width: 1440px;
-        margin: 0 32px;
-    }
-    @media (min-width: 1152px) {
-        width: 1152px;
-        margin: 0 32px;
-    }
-    @media (min-width: 768px) {
-        width: 768px;
-        margin: 0 20px;
-    }
-    @media (min-width: 320px) {
-        width: 320px;
-        margin: 0 16px;
-    }
-}
-// -------------------------------- //
+// ---------- Desktop2 (1440px) / Desktop3 (1156px) / Tablet / Mobile ---------- //
+$Desktop2: 1440px;
+$Desktop3: 1152px;
+$Tablet: 768px;
+$Mobile: 320px;
+// ----------------------------------------------------------------------------- //
