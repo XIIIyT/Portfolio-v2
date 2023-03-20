@@ -1,5 +1,11 @@
 @import './variables.scss';
 
+:root {
+    --main-color: #333333;
+    --white-color: #FFFFFF;
+    --gray-color: #D6D6D6;
+}
+
 * {
     margin: 0;
     padding: 0;
