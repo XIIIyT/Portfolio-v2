@@ -1,4 +1,6 @@
 import styles from "./HeroZone.module.scss";
+import Me from '../../assets/images/Me.jpg';
+
 
 const HeroZone = () => {
   return (
@@ -19,6 +21,9 @@ const HeroZone = () => {
             just a few fancy titles. Scroll down and
             get to know me...
           </p>
+        </div>
+        <div className="ImageContainer">
+          <img className={styles.MyImage} src={Me} alt="Me.jpg" />
         </div>
       </div>
       <div className={styles.IconScroll}>
