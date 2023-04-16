@@ -1,12 +1,15 @@
 import Header from './components/Header/Header';
-import HeroZone from './pages (Anchors)/HeroZone/HeroZone';
+import UserVW from './components/userVW/userVW';
+import Footer from './components/Footer/Footer';
+import styles from "./global-styles/index.module.scss";
 
 const App = () => {
   return (
-    <>
+    <div className={styles.App}>
       <Header />
-      <HeroZone />
-    </>
+      <UserVW />
+      <Footer />
+    </div>
   )
 }
 
